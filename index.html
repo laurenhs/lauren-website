@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Personal Brand</title>
+  <style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		header h1 {
+			margin: 0;
+		}
+		nav {
+			background-color: #eee;
+			display: flex;
+			justify-content: space-around;
+			padding: 20px;
+		}
+		nav ul {
+			display: flex;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav li {
+			margin: 0 10px;
+		}
+		nav a {
+			color: #333;
+			text-decoration: none;
+		}
+		nav a:hover {
+			color: #00b8d4;
+		}
+		main {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 auto;
+			max-width: 1200px;
+			padding: 20px;
+		}
+		section {
+			background-color: #fff;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+			margin: 20px;
+			padding: 20px;
+			width: calc(33.333% - 40px);
+		}
+		section h2 {
+			color: #00b8d4;
+			margin: 0;
+		}
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		footer p {
+			margin: 0;
+		}
+		form {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 20px 0;
+		}
+		form label {
+			display: block;
+			margin-bottom: 8px;
+			width: 100%;
+		}
+		form input[type="text"], form textarea {
+			border: 1px solid #ddd;
+			box-sizing: border-box;
+			font-size: 16px;
+			padding: 12px;
+			width: 100%;
+		}
+		form input[type="submit"] {
+			background-color: #00b8d4;
+			border: none;
+			color: #fff;
+			cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+	<header>
+		<h1>Welcome to My Personal Brand</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>Hi, my name is Lauren Schenk and I am a [Your Profession]. I am passionate about [Your Interests] and have been working in the industry for [Number] years. I am dedicated to helping my clients [What You Do for Your Clients].</p>
+		</section>
+		<section id="services">
+			<h2>My Services</h2>
+			<ul>
+				<li>Service 1</li>
+				<li>Service 2</li>
+				<li>Service 3</li>
+			</ul>
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<p>You can contact me at lhschenk@gmail.com or by filling out the form below:</p>
+			<form>
+				<label for="name">Name:</label><br>
+				<input type="text" id="name" name="name"><br>
+				<label for="email">Email:</label><br>
+				<input type="text" id="email" name="email"><br>
+				<label for="message">Message:</label><br>
+				<textarea id="message" name="message"></textarea><br>
+				<input type="submit" value="Submit">
+			</form> 
+		</section>
+	</main>
+	<footer>
+		<p>Copyright Me 2022</p>
+	</footer>
+</body>
+</html>
